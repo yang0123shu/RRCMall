@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  RRCMall
+//
+//  Created by 阳书成 on 2017/6/29.
+//  Copyright © 2017年 shenzhenRRC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#define kBaseURL @"http://192.168.43.173:9191"
+#define kBaseURL @"http://app.cicc360.com/"
+//#define kBaseURL @"http://baidu.com"
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kViewHight self.view.bounds.size.height
+#define IsUsedKey [NSString stringWithFormat:@"isUsed%@",[[[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleShortVersionString"] stringByReplacingOccurrencesOfString:@"." withString:@""]]
+
+#define IPHONEDEVICE @"IPHONE"
+#define IPADDEVICE @"IPAD"
+#define MOBILEDEVICE_KEY @"BSMobileDevice"
+
+#define JSPREHEADER @"bs://"
+#define JSPARAMDELIMIT @"???"
+#define JSPAYCHARGE @"paycharge"
+#define JSSHAREINFO @"shareInfo"
+#define kURLScheme @"ZJLJSMall"
+#define kAppID @"app_Tm9mjHmrLaLSnjX9"
+#define JSSETNAVIBARVISIBLE @"setHeaderBarConfig"//设置是否显示导航栏
+#define JSH5PAGELOADED @"napiH5Loaded"
+#define JSGETMOBILEANDEVNINFO @"getDeviceAndEvnInfos"
+
+
+
+#define QQAPPID @"1106245335"
+#define QQAPPKEY @"UO02coewiyti3xZY"
+#define WECHATAPPID @"wxef2553f508633c5d"
+#define WECHATAPPKEY @"50a67dd6578d430a28aedf2b0d7170d0"
+
+#define SHARE @"ZJShare"
+
+#endif /* PrefixHeader_pch */
+
+

@@ -1,0 +1,6 @@
+framework module Pods_RRCMall {
+  umbrella header "Pods-RRCMall-umbrella.h"
+
+  export *
+  module * { export * }
+}
