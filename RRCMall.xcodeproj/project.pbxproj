@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51285871F34622800C6171B /* L_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51285831F34622800C6171B /* L_4.jpg */; };
+		A51285881F34622800C6171B /* L_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51285841F34622800C6171B /* L_5.jpg */; };
+		A51285891F34622800C6171B /* L_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51285851F34622800C6171B /* L_6.jpg */; };
+		A512858A1F34622800C6171B /* L_6P.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A51285861F34622800C6171B /* L_6P.jpg */; };
+		A512858E1F34653900C6171B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A512858D1F34653900C6171B /* Assets.xcassets */; };
 		A52065681F0E6D2400DCA31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A52065671F0E6D2400DCA31B /* main.m */; };
 		A520656B1F0E6D2400DCA31B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A520656A1F0E6D2400DCA31B /* AppDelegate.m */; };
 		A520656E1F0E6D2400DCA31B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A520656D1F0E6D2400DCA31B /* ViewController.m */; };
 		A52065711F0E6D2400DCA31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A520656F1F0E6D2400DCA31B /* Main.storyboard */; };
-		A52065731F0E6D2400DCA31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52065721F0E6D2400DCA31B /* Assets.xcassets */; };
 		A52065761F0E6D2400DCA31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52065741F0E6D2400DCA31B /* LaunchScreen.storyboard */; };
 		A52066021F0E6DB800DCA31B /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A52065801F0E6DB800DCA31B /* AlipaySDK.bundle */; };
 		A52066031F0E6DB800DCA31B /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A52065811F0E6DB800DCA31B /* AlipaySDK.framework */; };
@@ -92,7 +96,6 @@
 		A5C347A51F2F17BF0028C241 /* YiXinConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C3475B1F2F17BE0028C241 /* YiXinConnector.framework */; };
 		A5C347A61F2F17BF0028C241 /* YouTubeConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C3475C1F2F17BE0028C241 /* YouTubeConnector.framework */; };
 		A5C347A71F2F17BF0028C241 /* libAPOpenSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C347611F2F17BE0028C241 /* libAPOpenSdk.a */; };
-		A5C347A81F2F17BF0028C241 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A5C347621F2F17BE0028C241 /* README.md */; };
 		A5C347A91F2F17BF0028C241 /* DTShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C347641F2F17BE0028C241 /* DTShareKit.framework */; };
 		A5C347AA1F2F17BF0028C241 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C347661F2F17BE0028C241 /* Bolts.framework */; };
 		A5C347AB1F2F17BF0028C241 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C347671F2F17BE0028C241 /* FBSDKCoreKit.framework */; };
@@ -118,6 +121,11 @@
 /* Begin PBXFileReference section */
 		0899C805034B237C4510C25D /* Pods-RRCMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRCMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RRCMall/Pods-RRCMall.debug.xcconfig"; sourceTree = "<group>"; };
 		0AE5D37C6E8E6857F4616E6E /* Pods-RRCMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRCMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-RRCMall/Pods-RRCMall.release.xcconfig"; sourceTree = "<group>"; };
+		A51285831F34622800C6171B /* L_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = L_4.jpg; sourceTree = "<group>"; };
+		A51285841F34622800C6171B /* L_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = L_5.jpg; sourceTree = "<group>"; };
+		A51285851F34622800C6171B /* L_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = L_6.jpg; sourceTree = "<group>"; };
+		A51285861F34622800C6171B /* L_6P.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = L_6P.jpg; sourceTree = "<group>"; };
+		A512858D1F34653900C6171B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52065631F0E6D2400DCA31B /* RRCMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRCMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52065671F0E6D2400DCA31B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A52065691F0E6D2400DCA31B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,7 +133,6 @@
 		A520656C1F0E6D2400DCA31B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A520656D1F0E6D2400DCA31B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A52065701F0E6D2400DCA31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A52065721F0E6D2400DCA31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52065751F0E6D2400DCA31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52065771F0E6D2400DCA31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52065801F0E6DB800DCA31B /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
@@ -221,7 +228,6 @@
 		A5C3475F1F2F17BE0028C241 /* APOpenAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPI.h; sourceTree = "<group>"; };
 		A5C347601F2F17BE0028C241 /* APOpenAPIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APOpenAPIObject.h; sourceTree = "<group>"; };
 		A5C347611F2F17BE0028C241 /* libAPOpenSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAPOpenSdk.a; sourceTree = "<group>"; };
-		A5C347621F2F17BE0028C241 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5C347641F2F17BE0028C241 /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTShareKit.framework; sourceTree = "<group>"; };
 		A5C347661F2F17BE0028C241 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		A5C347671F2F17BE0028C241 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -377,9 +383,9 @@
 				A52065FB1F0E6DB800DCA31B /* RRCNetworkTool.m */,
 				A52065FC1F0E6DB800DCA31B /* WkwebView */,
 				A520656F1F0E6D2400DCA31B /* Main.storyboard */,
-				A52065721F0E6D2400DCA31B /* Assets.xcassets */,
 				A52065741F0E6D2400DCA31B /* LaunchScreen.storyboard */,
 				A52065771F0E6D2400DCA31B /* Info.plist */,
+				A512858D1F34653900C6171B /* Assets.xcassets */,
 				A52065661F0E6D2400DCA31B /* Supporting Files */,
 			);
 			path = RRCMall;
@@ -1126,6 +1132,10 @@
 				A52065F71F0E6DB800DCA31B /* G3_5.jpg */,
 				A52065F81F0E6DB800DCA31B /* G3_6.jpg */,
 				A52065F91F0E6DB800DCA31B /* G3_6P.jpg */,
+				A51285831F34622800C6171B /* L_4.jpg */,
+				A51285841F34622800C6171B /* L_5.jpg */,
+				A51285851F34622800C6171B /* L_6.jpg */,
+				A51285861F34622800C6171B /* L_6P.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1246,7 +1256,6 @@
 				A5C3475F1F2F17BE0028C241 /* APOpenAPI.h */,
 				A5C347601F2F17BE0028C241 /* APOpenAPIObject.h */,
 				A5C347611F2F17BE0028C241 /* libAPOpenSdk.a */,
-				A5C347621F2F17BE0028C241 /* README.md */,
 			);
 			path = APSocialSDK;
 			sourceTree = "<group>";
@@ -1443,16 +1452,17 @@
 				A5C347B11F2F17BF0028C241 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				A52065761F0E6D2400DCA31B /* LaunchScreen.storyboard in Resources */,
 				A52066211F0E6DB800DCA31B /* WKJSPOST.html in Resources */,
+				A51285891F34622800C6171B /* L_6.jpg in Resources */,
 				A52066201F0E6DB800DCA31B /* backItemImage_hl@2x.png in Resources */,
 				A5C3478E1F2F17BE0028C241 /* ShareSDKUI.bundle in Resources */,
 				A52066191F0E6DB800DCA31B /* G2_6P.jpg in Resources */,
 				A5C3478B1F2F17BE0028C241 /* ShareSDKConfigFile.bundle in Resources */,
+				A512858A1F34622800C6171B /* L_6P.jpg in Resources */,
 				A56498111F20A88E00CBFD99 /* lauche.jpg in Resources */,
 				A520661B1F0E6DB800DCA31B /* G3_5.jpg in Resources */,
 				A5C347B51F2F17BF0028C241 /* WeiboSDK.bundle in Resources */,
 				A5C347B71F2F17BF0028C241 /* README.txt in Resources */,
 				A520661A1F0E6DB800DCA31B /* G3_4.jpg in Resources */,
-				A52065731F0E6D2400DCA31B /* Assets.xcassets in Resources */,
 				A52066131F0E6DB800DCA31B /* G1_5.jpg in Resources */,
 				A520661D1F0E6DB800DCA31B /* G3_6P.jpg in Resources */,
 				A520661C1F0E6DB800DCA31B /* G3_6.jpg in Resources */,
@@ -1464,9 +1474,12 @@
 				A52066021F0E6DB800DCA31B /* AlipaySDK.bundle in Resources */,
 				A5C347B21F2F17BF0028C241 /* RennSDK.bundle in Resources */,
 				A52066151F0E6DB800DCA31B /* G1_6P.jpg in Resources */,
+				A51285881F34622800C6171B /* L_5.jpg in Resources */,
 				A5C347B91F2F17BF0028C241 /* ShareSDK.bundle in Resources */,
 				A52066161F0E6DB800DCA31B /* G2_4.jpg in Resources */,
 				A520660D1F0E6DB800DCA31B /* Pingpp.bundle in Resources */,
+				A51285871F34622800C6171B /* L_4.jpg in Resources */,
+				A512858E1F34653900C6171B /* Assets.xcassets in Resources */,
 				A52065711F0E6D2400DCA31B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1528,7 +1541,6 @@
 			files = (
 				A520656E1F0E6D2400DCA31B /* ViewController.m in Sources */,
 				A52066101F0E6DB800DCA31B /* QRCodeReaderViewController.m in Sources */,
-				A5C347A81F2F17BF0028C241 /* README.md in Sources */,
 				A52066221F0E6DB800DCA31B /* WKWebViewController.m in Sources */,
 				A520661E1F0E6DB800DCA31B /* RRCNetworkTool.m in Sources */,
 				A520656B1F0E6D2400DCA31B /* AppDelegate.m in Sources */,
@@ -1655,6 +1667,7 @@
 			baseConfigurationReference = 0899C805034B237C4510C25D /* Pods-RRCMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = LEAGDC8EK4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1735,6 +1748,7 @@
 			baseConfigurationReference = 0AE5D37C6E8E6857F4616E6E /* Pods-RRCMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = LEAGDC8EK4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

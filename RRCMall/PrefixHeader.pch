@@ -27,7 +27,7 @@
 #define JSPREHEADER @"bs://"
 #define JSPARAMDELIMIT @"???"
 #define JSPAYCHARGE @"paycharge"
-#define JSSHAREINFO @"shareInfo"
+#define JSSHAREINFO @"shareinfo"
 #define kURLScheme @"ZJLJSMall"
 #define kAppID @"app_Tm9mjHmrLaLSnjX9"
 #define JSSETNAVIBARVISIBLE @"setHeaderBarConfig"//设置是否显示导航栏

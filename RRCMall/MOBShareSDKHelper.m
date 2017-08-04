@@ -656,7 +656,7 @@
 //                                                                     cancelButtonTitle:@"确定"
 //                                                                     otherButtonTitles:nil];
 //                           [alertView show];
-                           [vc.view makeToast:@"分享成功" duration:2 position:CSToastPositionBottom];
+//                           [vc.view makeToast:@"分享成功" duration:2 position:CSToastPositionBottom];
                            break;
                        }
                        case SSDKResponseStateFail:
@@ -679,7 +679,7 @@
 //                                                                     cancelButtonTitle:@"确定"
 //                                                                     otherButtonTitles:nil];
 //                           [alertView show];
-                           [vc.view makeToast:@"取消分享" duration:2 position:CSToastPositionBottom];
+//                           [vc.view makeToast:@"取消分享" duration:2 position:CSToastPositionBottom];
                            break;
                        }
                        default:

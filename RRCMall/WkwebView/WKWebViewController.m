@@ -542,24 +542,17 @@ static void *WkwebBrowserContext = &WkwebBrowserContext;
             //bs://shareinfo???{params:{title:xxx,text:xxx,image:xxx,url:xxx}}
             NSUInteger idx = [JSPREHEADER length];
             NSArray *items = [[absolutString substringFromIndex:idx] componentsSeparatedByString:JSPARAMDELIMIT];
-            NSMutableDictionary *params = [NSMutableDictionary dictionary];
             
             NSString *allParamJSONString = [items[1] stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
             NSError *error;
             NSMutableDictionary *allPramsDic = [NSJSONSerialization JSONObjectWithData:[allParamJSONString dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableContainers error:&error];
             if (!error) {
                 if (allPramsDic.allKeys.count > 0) {
-                    if ([[allPramsDic objectForKey:@"params"] isKindOfClass:[NSString class]]) {
-                        params = [NSJSONSerialization JSONObjectWithData:[[allPramsDic objectForKey:@"params"] dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingMutableLeaves error:&error];
-                    }
-                    else if ([[allPramsDic objectForKey:@"params"] isKindOfClass:[NSDictionary class]]){
-                        params = [allPramsDic objectForKey:@"params"];
-                    }
-                    if (![params objectForKey:@"image"]) {
+                    if (![allPramsDic objectForKey:@"image"]) {
                         
                     }
                     MOBShareSDKHelper *helper = [MOBShareSDKHelper shareInstance];
-                    [helper shareWithParams:params];
+                    [helper shareWithParams:allPramsDic];
                 }
             }
         }
@@ -1002,16 +995,16 @@ static void *WkwebBrowserContext = &WkwebBrowserContext;
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        NSDictionary *dic = @{
-                              @"text":@"分享测试",
-                              @"url":@"http://baidu.com",
-                              @"image":[UIImage imageNamed:@"G1_4.jpg"],
-                              @"title":@"中金商城"
-                              };
-        MOBShareSDKHelper *helper = [MOBShareSDKHelper shareInstance];
-        [helper shareWithParams:dic];
-    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        NSDictionary *dic = @{
+//                              @"text":@"分享测试",
+//                              @"url":@"http://baidu.com",
+//                              @"image":[UIImage imageNamed:@"G1_4.jpg"],
+//                              @"title":@"中金商城"
+//                              };
+//        MOBShareSDKHelper *helper = [MOBShareSDKHelper shareInstance];
+//        [helper shareWithParams:dic];
+//    });
 }
 
 //注意，观察的移除
